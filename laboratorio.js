@@ -39,6 +39,7 @@ function RegistrarLasVentas (actual, cantidadSeleccionada) {
                 mayor10++;
             }
         }
+        console.log(`Ventas mayor a $10.00: ${mayor10}`)
         rl.close();
         return;
     }
